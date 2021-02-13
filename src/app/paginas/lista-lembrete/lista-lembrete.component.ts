@@ -19,6 +19,7 @@ export class ListaLembreteComponent implements OnInit {
   }               
 
   ngOnInit(): void {
+    this.getListaLembretes();
   }
 
   //MÉTODO PARA RETORNAR A LISTA DE LEMBRETES
